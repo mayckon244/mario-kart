@@ -1,118 +1,195 @@
-# 🧙‍♂️ Jornada na Terra-média
+# 🏎 Mario Kart Simulator
 
-Um mini jogo em JavaScript inspirado no universo de fantasia, onde personagens competem em desafios aleatórios como corrida, magia e batalha ⚔️
-
-## 📜 Descrição
-
-Este projeto simula uma jornada entre dois personagens da Terra-média. A cada rodada, um desafio aleatório é escolhido e os jogadores competem utilizando seus atributos:
-
-* **Agilidade** 🏃 → usada em desafios de corrida
-* **Magia** ✨ → usada em desafios de feitiço
-* **Força** 💪 → usada em batalhas
-
-O resultado é influenciado por um dado 🎲 e pelos atributos de cada personagem.
+Simulador de corrida inspirado em Mario Kart desenvolvido com Node.js, focado em lógica de programação, sistema de turnos e mecânicas de batalha via terminal.
 
 ---
 
-## 🎮 Personagens
+## 📌 Sobre o Projeto
 
-Os personagens disponíveis no jogo são:
+O **Mario Kart Simulator** é um projeto desenvolvido para simular corridas entre personagens inspirados no universo Mario Kart utilizando apenas JavaScript no ambiente Node.js.
 
-* Frodo
-* Legolas
-* Gimli
-* Aragorn
-* Gandalf
-* Sauron
+O objetivo principal do projeto é praticar:
 
-Cada personagem possui atributos únicos:
+- lógica de programação,
+- manipulação de objetos,
+- modularização,
+- regras de jogo,
+- geração de eventos aleatórios,
+- estruturação de aplicações Node.js.
 
-```
-{
-  NOME: "Gandalf",
-  AGILIDADE: 3,
-  MAGIA: 6,
-  FORCA: 4,
-  PONTOS: 0
-}
-```
+Toda a experiência acontece diretamente no terminal, priorizando a implementação da lógica do jogo em vez de interface gráfica.
 
 ---
 
-## ⚙️ Como funciona
+## 🚀 Tecnologias Utilizadas
 
-1. O jogo escolhe um desafio aleatório:
+### Backend
+- Node.js
+- JavaScript ES6+
 
-   * CORRIDA
-   * FEITICO
-   * BATALHA
-
-2. Cada jogador rola um dado (1 a 6)
-
-3. O valor do dado é somado ao atributo correspondente
-
-4. O jogador com maior valor:
-
-   * Ganha **1 ponto** em desafios normais
-   * Remove **1 ponto do adversário** em batalhas (mínimo 0)
-
-5. O jogo acontece em **5 rodadas**
-
-6. Quem tiver mais pontos no final vence 🏆
+### Ferramentas
+- Git
+- GitHub
 
 ---
 
-## 🗺️ Cenários
+## 🎮 Como o Jogo Funciona
 
-Cada rodada ocorre em um cenário aleatório:
+Cada personagem possui atributos próprios:
 
-* 🌿 O Condado
-* 🌲 Floresta das Trevas
-* ⛰️ Minas de Moria
-* 🏰 Minas Tirith
-* 🌋 Mordor
-* 🗼 Isengard
-* 🌊 Valfenda
+- 🏁 Velocidade
+- 🎯 Manobrabilidade
+- 💥 Poder
+
+Durante cada rodada:
+
+1. Um tipo de desafio é sorteado
+2. Os jogadores disputam utilizando seus atributos
+3. O vencedor ganha pontos
+4. Eventos especiais podem alterar o resultado
+5. Ao final das rodadas, o campeão é definido
 
 ---
 
-## ▶️ Como executar
+## 📂 Estrutura do Projeto
 
-1. Certifique-se de ter o Node.js instalado
-2. Salve o código em um arquivo, por exemplo: `game.js`
-3. Execute no terminal:
-
-```
-node game.js
+```bash
+mario-kart/
+│
+├── src/
+│   ├── index.js
+│   ├── players/
+│   ├── services/
+│   ├── utils/
+│   └── game/
+│
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 🔄 Exemplo de execução
+## ⚙️ Instalação
 
+Clone o repositório:
+
+```bash
+git clone https://github.com/mayckon244/mario-kart.git
 ```
-🧙 Jornada entre Gandalf e Sauron
 
-=== 🌍 Etapa 1 ===
-🎬 Cenário: 🌋 Mordor
-🎯 Desafio: BATALHA
-Gandalf 🎲 4 = 8
-Sauron 🎲 5 = 11
-⚔️ Sauron venceu a batalha!
+Acesse a pasta do projeto:
+
+```bash
+cd mario-kart
+```
+
+Instale as dependências:
+
+```bash
+npm install
 ```
 
 ---
 
-## 🧠 Possíveis melhorias
+## ▶️ Executando o Projeto
 
-* Interface gráfica (web ou CLI interativa)
-* Permitir escolha de personagens pelo usuário
-* Sistema de níveis ou evolução
-* Mais tipos de desafios
-* Multiplayer
+Execute o comando abaixo no terminal:
+
+```bash
+node src/index.js
+```
+
+---
+
+## 📸 Preview
+
+### Exemplo de execução:
+
+```bash
+🏁 Corrida iniciada!
+
+Mario 🎲 rolou 6
+Bowser 🎲 rolou 4
+
+Mario venceu a rodada!
+
+----------------------------
+
+🏆 Resultado Final:
+
+Mario: 5 pontos
+Bowser: 3 pontos
+
+🥇 Mario é o grande vencedor!
+```
+
+---
+
+## 🔥 Funcionalidades
+
+- Sistema de corrida por turnos
+- Personagens com atributos diferentes
+- Eventos aleatórios
+- Sistema de pontuação
+- Simulação automática de partidas
+- Estrutura modular em JavaScript
+
+---
+
+## 🛠 Melhorias Futuras
+
+- Interface gráfica
+- Multiplayer local
+- Sistema de ranking
+- Salvamento de partidas
+- Novos personagens
+- Sistema de itens estilo Mario Kart
+- Inteligência artificial para bots
+
+---
+
+## 📚 Aprendizados
+
+Este projeto foi importante para aprofundar conhecimentos em:
+
+- JavaScript moderno
+- Node.js
+- Estruturação de projetos
+- Lógica de programação
+- Modularização
+- Manipulação de objetos
+- Organização de código
+
+---
+
+## 📈 Possíveis Evoluções Técnicas
+
+Futuramente o projeto pode evoluir para:
+
+- API REST para gerenciamento de partidas
+- Banco de dados para ranking
+- Frontend em React
+- WebSocket para partidas em tempo real
+- Dockerização da aplicação
+- Deploy online
+
+---
+
+## 👨‍💻 Autor
+
+### Mayckon
+
+GitHub:
+https://github.com/mayckon244
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se livre para abrir issues, sugerir melhorias ou criar forks do projeto.
 
 ---
 
 ## 📄 Licença
 
-Este projeto é livre para uso e modificação.
+Este projeto está sob a licença MIT.
