@@ -1,89 +1,109 @@
-# 🏎 Mario Kart Simulator
+# 🏎️ Middle Earth Racing
 
-Simulador de corrida inspirado em Mario Kart desenvolvido com Node.js, focado em lógica de programação, sistema de turnos e mecânicas de batalha via terminal.
+Um jogo de corrida arcade inspirado no universo de fantasia medieval de Senhor dos Anéis, desenvolvido com JavaScript, HTML e CSS.
 
----
-
-## 📌 Sobre o Projeto
-
-O **Mario Kart Simulator** é um projeto desenvolvido para simular corridas entre personagens inspirados no universo Mario Kart utilizando apenas JavaScript no ambiente Node.js.
-
-O objetivo principal do projeto é praticar:
-
-- lógica de programação,
-- manipulação de objetos,
-- modularização,
-- regras de jogo,
-- geração de eventos aleatórios,
-- estruturação de aplicações Node.js.
-
-Toda a experiência acontece diretamente no terminal, priorizando a implementação da lógica do jogo em vez de interface gráfica.
+O projeto foi criado com foco em lógica de programação, gameplay arcade, ambientação temática e experiência visual inspirada na Terra Média.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+# 📸 Preview
 
-### Backend
-- Node.js
-- JavaScript ES6+
-
-### Ferramentas
-- Git
-- GitHub
-
----
-
-## 🎮 Como o Jogo Funciona
-
-Cada personagem possui atributos próprios:
-
-- 🏁 Velocidade
-- 🎯 Manobrabilidade
-- 💥 Poder
-
-Durante cada rodada:
-
-1. Um tipo de desafio é sorteado
-2. Os jogadores disputam utilizando seus atributos
-3. O vencedor ganha pontos
-4. Eventos especiais podem alterar o resultado
-5. Ao final das rodadas, o campeão é definido
-
----
-
-## 📂 Estrutura do Projeto
+Adicione aqui imagens ou GIFs do jogo.
 
 ```bash
-mario-kart/
-│
-├── src/
-│   ├── index.js
-│   ├── players/
-│   ├── services/
-│   ├── utils/
-│   └── game/
-│
-├── package.json
-└── README.md
+/assets/preview1.png
+/assets/gameplay.gif
 ```
 
 ---
 
-## ⚙️ Instalação
+# ⚔️ Sobre o Projeto
 
-Clone o repositório:
+Middle Earth Racing é um jogo de corrida inspirado em batalhas e cenários épicos de fantasia medieval.
+
+O objetivo do projeto é praticar:
+
+- Estruturação de jogos em JavaScript
+- Manipulação do DOM
+- Sistema de corrida e movimentação
+- Lógica de gameplay
+- Organização de código
+- Criação de interfaces temáticas
+- Desenvolvimento de projetos interativos
+
+---
+
+# 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+
+---
+
+# 🎮 Funcionalidades
+
+- Sistema de corrida arcade
+- Personagens inspirados em fantasia medieval
+- Sistema de velocidade e movimentação
+- Interface temática
+- Estrutura modular
+- Efeitos visuais
+- Sistema de pontuação
+- Seleção de personagens
+
+---
+
+# 🗺️ Roadmap
+
+## Próximas melhorias
+
+- [ ] Sistema de drift
+- [ ] Multiplayer online
+- [ ] Inteligência artificial para bots
+- [ ] Novas pistas
+- [ ] Sistema de itens
+- [ ] Menu animado
+- [ ] Sistema de ranking
+- [ ] Efeitos sonoros
+- [ ] Salvamento de progresso
+- [ ] Responsividade mobile
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash
+src/
+│
+├── assets/
+├── css/
+├── js/
+├── sounds/
+├── images/
+└── index.html
+```
+
+---
+
+# ⚙️ Como Executar o Projeto
+
+## Clone o repositório
 
 ```bash
 git clone https://github.com/mayckon244/mario-kart.git
 ```
 
-Acesse a pasta do projeto:
+## Entre na pasta
 
 ```bash
 cd mario-kart
 ```
 
-Instale as dependências:
+## Instale as dependências
+
+Caso utilize Node.js:
 
 ```bash
 npm install
@@ -91,105 +111,104 @@ npm install
 
 ---
 
-## ▶️ Executando o Projeto
+## Execute o projeto
 
-Execute o comando abaixo no terminal:
+Se estiver usando apenas HTML/CSS/JS:
+
+Abra o arquivo:
 
 ```bash
-node src/index.js
+index.html
+```
+
+Ou utilize uma extensão como:
+
+- Live Server (VS Code)
+
+Caso utilize Node.js:
+
+```bash
+npm start
 ```
 
 ---
 
-## 📸 Preview
+# 🧠 Objetivos de Aprendizado
 
-### Exemplo de execução:
+Este projeto foi desenvolvido para melhorar conhecimentos em:
 
-```bash
-🏁 Corrida iniciada!
-
-Mario 🎲 rolou 6
-Bowser 🎲 rolou 4
-
-Mario venceu a rodada!
-
-----------------------------
-
-🏆 Resultado Final:
-
-Mario: 5 pontos
-Bowser: 3 pontos
-
-🥇 Mario é o grande vencedor!
-```
-
----
-
-## 🔥 Funcionalidades
-
-- Sistema de corrida por turnos
-- Personagens com atributos diferentes
-- Eventos aleatórios
-- Sistema de pontuação
-- Simulação automática de partidas
-- Estrutura modular em JavaScript
-
----
-
-## 🛠 Melhorias Futuras
-
-- Interface gráfica
-- Multiplayer local
-- Sistema de ranking
-- Salvamento de partidas
-- Novos personagens
-- Sistema de itens estilo Mario Kart
-- Inteligência artificial para bots
-
----
-
-## 📚 Aprendizados
-
-Este projeto foi importante para aprofundar conhecimentos em:
-
-- JavaScript moderno
-- Node.js
-- Estruturação de projetos
+- JavaScript
 - Lógica de programação
-- Modularização
-- Manipulação de objetos
+- Estruturação de projetos
+- Desenvolvimento de jogos
+- Manipulação de eventos
 - Organização de código
+- Experiência do usuário
 
 ---
 
-## 📈 Possíveis Evoluções Técnicas
+# 🎨 Identidade Visual
 
-Futuramente o projeto pode evoluir para:
+O jogo busca uma estética inspirada em:
 
-- API REST para gerenciamento de partidas
-- Banco de dados para ranking
-- Frontend em React
-- WebSocket para partidas em tempo real
-- Dockerização da aplicação
-- Deploy online
+- Fantasia medieval
+- Castelos
+- Reinos antigos
+- Batalhas épicas
+- Cenários sombrios
+- Terra Média
 
 ---
 
-## 👨‍💻 Autor
+# 🛠️ Melhorias Futuras
 
-### Mayckon
+O projeto ainda está em desenvolvimento e novas funcionalidades serão adicionadas futuramente.
+
+A ideia é transformar o jogo em uma experiência mais completa, com:
+
+- Gameplay mais fluida
+- Melhor física
+- Sistema de competição
+- Interface mais profissional
+- Multiplayer em tempo real
+- Sistema de conquistas
+- Personalização de personagens
+- Novos modos de jogo
+
+---
+
+# 📌 Organização do Código
+
+O projeto segue uma estrutura modular para facilitar:
+
+- manutenção
+- escalabilidade
+- leitura do código
+- futuras implementações
+
+O objetivo é evoluir o projeto para uma arquitetura mais profissional conforme novas funcionalidades forem adicionadas.
+
+---
+
+# 🎯 Objetivo Principal
+
+Criar uma experiência divertida de corrida arcade inspirada em fantasia medieval, utilizando tecnologias web modernas e aplicando boas práticas de desenvolvimento.
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por Mayckon.
 
 GitHub:
 https://github.com/mayckon244
 
 ---
 
-## ⭐ Contribuição
+# 📜 Licença
 
-Sinta-se livre para abrir issues, sugerir melhorias ou criar forks do projeto.
+Este projeto foi desenvolvido apenas para fins educacionais e de estudo.
 
----
+Não possui vínculo oficial com a franquia Senhor dos Anéis.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
+Todos os direitos relacionados à obra original pertencem aos seus respectivos proprietários.
