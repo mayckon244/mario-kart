@@ -1,42 +1,28 @@
 # 🏎️ Middle Earth Racing
 
-Um jogo de corrida arcade inspirado no universo de fantasia medieval de Senhor dos Anéis, desenvolvido com JavaScript, HTML e CSS.
+Um jogo de corrida arcade inspirado no universo de fantasia medieval de Senhor dos Anéis, desenvolvido em JavaScript.
 
-O projeto foi criado com foco em lógica de programação, gameplay arcade, ambientação temática e experiência visual inspirada na Terra Média.
-
----
-
-# 📸 Preview
-
-Adicione aqui imagens ou GIFs do jogo.
-
-```bash
-/assets/preview1.png
-/assets/gameplay.gif
-```
+O projeto simula corridas entre personagens inspirados na Terra Média, utilizando lógica de programação, eventos aleatórios e sistema de turnos.
 
 ---
 
 # ⚔️ Sobre o Projeto
 
-Middle Earth Racing é um jogo de corrida inspirado em batalhas e cenários épicos de fantasia medieval.
+Middle Earth Racing foi criado com o objetivo de praticar conceitos fundamentais de programação através de um jogo interativo e temático.
 
-O objetivo do projeto é praticar:
+O foco principal do projeto é:
 
-- Estruturação de jogos em JavaScript
-- Manipulação do DOM
-- Sistema de corrida e movimentação
-- Lógica de gameplay
-- Organização de código
-- Criação de interfaces temáticas
-- Desenvolvimento de projetos interativos
+- lógica de corrida
+- sistema de atributos
+- aleatoriedade
+- comparação de status
+- estruturação de código
+- organização de gameplay
 
 ---
 
 # 🚀 Tecnologias Utilizadas
 
-- HTML5
-- CSS3
 - JavaScript
 - Node.js
 
@@ -44,45 +30,53 @@ O objetivo do projeto é praticar:
 
 # 🎮 Funcionalidades
 
-- Sistema de corrida arcade
-- Personagens inspirados em fantasia medieval
-- Sistema de velocidade e movimentação
-- Interface temática
-- Estrutura modular
-- Efeitos visuais
-- Sistema de pontuação
-- Seleção de personagens
+- Sistema de corrida por turnos
+- Personagens com atributos únicos
+- Eventos aleatórios durante a corrida
+- Sistema de velocidade
+- Sistema de confronto
+- Pontuação automática
+- Resultado final da corrida
+- Lógica inspirada em jogos arcade
 
 ---
 
-# 🗺️ Roadmap
+# 🧙 Personagens
 
-## Próximas melhorias
+O jogo possui personagens inspirados em fantasia medieval, cada um com atributos diferentes:
 
-- [ ] Sistema de drift
-- [ ] Multiplayer online
-- [ ] Inteligência artificial para bots
-- [ ] Novas pistas
-- [ ] Sistema de itens
-- [ ] Menu animado
-- [ ] Sistema de ranking
-- [ ] Efeitos sonoros
-- [ ] Salvamento de progresso
-- [ ] Responsividade mobile
+- velocidade
+- manobrabilidade
+- poder
+
+Isso influencia diretamente no resultado da corrida.
+
+---
+
+# 🗺️ Mecânicas da Corrida
+
+Durante a corrida:
+
+- eventos aleatórios são gerados
+- personagens disputam vantagens
+- atributos são comparados
+- pontuações são atualizadas
+- o vencedor é definido ao final das rodadas
 
 ---
 
 # 📂 Estrutura do Projeto
 
 ```bash
-src/
+.
+├── src/
+│   ├── index.js
+│   ├── players.js
+│   ├── race.js
+│   └── utils.js
 │
-├── assets/
-├── css/
-├── js/
-├── sounds/
-├── images/
-└── index.html
+├── package.json
+└── README.md
 ```
 
 ---
@@ -95,15 +89,17 @@ src/
 git clone https://github.com/mayckon244/mario-kart.git
 ```
 
-## Entre na pasta
+---
+
+## Entre na pasta do projeto
 
 ```bash
 cd mario-kart
 ```
 
-## Instale as dependências
+---
 
-Caso utilize Node.js:
+## Instale as dependências
 
 ```bash
 npm install
@@ -113,86 +109,60 @@ npm install
 
 ## Execute o projeto
 
-Se estiver usando apenas HTML/CSS/JS:
-
-Abra o arquivo:
-
 ```bash
-index.html
-```
-
-Ou utilize uma extensão como:
-
-- Live Server (VS Code)
-
-Caso utilize Node.js:
-
-```bash
-npm start
+node src/index.js
 ```
 
 ---
 
-# 🧠 Objetivos de Aprendizado
+# 🧠 Conceitos Praticados
 
-Este projeto foi desenvolvido para melhorar conhecimentos em:
+Este projeto trabalha conceitos importantes como:
 
-- JavaScript
-- Lógica de programação
-- Estruturação de projetos
-- Desenvolvimento de jogos
-- Manipulação de eventos
-- Organização de código
-- Experiência do usuário
-
----
-
-# 🎨 Identidade Visual
-
-O jogo busca uma estética inspirada em:
-
-- Fantasia medieval
-- Castelos
-- Reinos antigos
-- Batalhas épicas
-- Cenários sombrios
-- Terra Média
-
----
-
-# 🛠️ Melhorias Futuras
-
-O projeto ainda está em desenvolvimento e novas funcionalidades serão adicionadas futuramente.
-
-A ideia é transformar o jogo em uma experiência mais completa, com:
-
-- Gameplay mais fluida
-- Melhor física
-- Sistema de competição
-- Interface mais profissional
-- Multiplayer em tempo real
-- Sistema de conquistas
-- Personalização de personagens
-- Novos modos de jogo
-
----
-
-# 📌 Organização do Código
-
-O projeto segue uma estrutura modular para facilitar:
-
-- manutenção
-- escalabilidade
-- leitura do código
-- futuras implementações
-
-O objetivo é evoluir o projeto para uma arquitetura mais profissional conforme novas funcionalidades forem adicionadas.
+- funções assíncronas
+- modularização
+- objetos
+- arrays
+- randomização
+- lógica condicional
+- organização de código
+- estruturação de gameplay
 
 ---
 
 # 🎯 Objetivo Principal
 
-Criar uma experiência divertida de corrida arcade inspirada em fantasia medieval, utilizando tecnologias web modernas e aplicando boas práticas de desenvolvimento.
+Criar uma experiência divertida de corrida inspirada em fantasia medieval enquanto pratica desenvolvimento com JavaScript e Node.js.
+
+---
+
+# 🛠️ Melhorias Futuras
+
+## Funcionalidades planejadas
+
+- [ ] Interface gráfica
+- [ ] Multiplayer
+- [ ] Sistema de ranking
+- [ ] Novos personagens
+- [ ] Novas pistas
+- [ ] Sistema de itens
+- [ ] Salvamento de progresso
+- [ ] Sons e efeitos
+- [ ] Inteligência artificial
+- [ ] Sistema de fases
+
+---
+
+# 📌 Organização do Código
+
+O projeto foi separado em módulos para facilitar:
+
+- manutenção
+- escalabilidade
+- leitura
+- futuras melhorias
+
+Cada arquivo possui responsabilidade específica dentro da lógica do jogo.
 
 ---
 
